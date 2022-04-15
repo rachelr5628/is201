@@ -1,0 +1,43 @@
+#mainNav {
+    background-color: rgb(75, 58, 51);
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+    color: ivory  ;
+    font-weight: 400;
+    font-size: large;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 25px;
+}
+
+body {
+    background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("https://images.squarespace-cdn.com/content/v1/5d095744699912000195f29c/1562307875596-RY25ZY1N3PVTBREXJOHC/wallpapers-hipster_629642521BW.jpg?format=2500w");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+
+.container {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.upper{
+    padding-top:50px
+}
+
+.size {
+    min-width: 90%;
+    min-height: 600px;
+}
+
+.sizecactus {
+    max-width: 40%;
+}
