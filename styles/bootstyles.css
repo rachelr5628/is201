@@ -1,0 +1,82 @@
+body {
+    background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("https://images.squarespace-cdn.com/content/v1/5d095744699912000195f29c/1562307875596-RY25ZY1N3PVTBREXJOHC/wallpapers-hipster_629642521BW.jpg?format=2500w");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.center {
+    display: block;
+    margin-left: 10%;
+    margin-right:10%;
+    padding-bottom: 25px;
+}
+.resize {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    margin-top:5%;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    color: ivory  ;
+    font-weight: 400;
+    font-size: large;
+}
+
+#mainNav {
+    background-color: rgb(75, 58, 51);
+    padding-top:5px; padding-bottom:5px;
+}
+
+.container {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+.better {
+    color: ivory;
+    font-size: x-large;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.footer {
+    background-color: rgba(47, 23, 15, 0.9);
+    color: ivory;
+    text-align: center;
+    padding-top:2.5rem;
+    padding-bottom:2.5rem;
+    font-size: large;
+}
+
+#text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    color: ivory;
+    font-size: 50pt;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.align {
+    text-align: center;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+    margin-inline-start: 65px;
+    list-style: none;
+    justify-content: center;
+  }
+
+li{
+    display: inline-block;
+    padding:10px 40px;
+}
